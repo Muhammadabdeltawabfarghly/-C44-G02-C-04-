@@ -426,7 +426,6 @@
 
 
 
-
             #region String
             //Is a Built in Class [Reference Data Type] and represente
             //They are immutable [once a string object is created, its
@@ -479,6 +478,100 @@
 
 
             #endregion
+
+
+
+
+
+
+            #region StringBuilger
+            //Is a built in class [reference data type] and represente
+            //Mutable string
+            //LinkedList of characters
+            #region Examples
+            //StringBuilder name;
+            //Allocate 4 bytes in stack for reference
+            //name = "Mariam"; //Invalid
+
+            //name = new StringBuilder("Mariam");
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+            ////name +=" Shindy"; //Invalid
+            //name.Append(" Shindy");
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+
+
+            //StringBuilder
+
+            //name1 = new StringBuilder("Mariam");
+            //StringBuilder name2 = new StringBuilder();
+            //name2.Append("Mariam");
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+
+            //name1 = name2;
+            //Console.WriteLine("Change name1");
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+
+
+
+
+            #endregion
+
+
+
+
+
+
+            #region StringBuilder Methods
+
+            //StringBuilder msg = new StringBuilder("Mariam");
+            //msg = msg.Insert(0, "Hello");
+            //Console.WriteLine(msg);
+            //Console.WriteLine(msg.Replace('M','C'));
+            //Console.WriteLine(msg.Replace("Mariam","NewMariam"));
+            //Console.WriteLine(msg.Remove(0,2));
+            //int age = 20;
+            //Console.WriteLine(msg);
+            //Console.WriteLine(msg.GetHashCode());
+
+            //msg.Clear();
+            //Console.WriteLine(msg);
+            //Console.WriteLine(msg.GetHashCode());
+
+            //msg.AppendFormat(" Your age is {0}", age);
+            //Console.WriteLine(name.Length); //6
+            //name.AppendLine(" Shindy");
+            //name.Append("Hello");
+            //name.AppendJoin(",", " Yasser", "Omar", "Shindy");
+
+            //Console.WriteLine(name);
+
+
+            #endregion
+            #region String Vs StringBuilder
+            /*
+            Simple and few concatenations == > String
+            Large loops or frequent changes == > StringBuilder
+            You care about performance == > StringBuilder
+            You care about code simplicity == > String
+            */
+
+            #endregion
+
+            #endregion
+
+
 
             #endregion
 

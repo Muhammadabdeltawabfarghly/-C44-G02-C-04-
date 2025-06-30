@@ -6,18 +6,19 @@
         {
             #region Task 
             /*
-             * Ask user for salary amount and print:    
-             * "No tax" if < 5000 , and the salary stays the same.
-             * "10% tax" if between 5000–9999 ,  subtract 10% tax.
-             * "20% tax" if ≥ 10000 ,  subtract 20% tax.
-             * Expected output : 
-             * ==> 10% tax applied  
-             * ==> Final salary after tax 
-             */
+              Student Age Checker (Using Relational Patterns with Switch)
+              Let the user enter a student's age.
+              Use switch with relational pattern to check:
+
+              If age > 25 : print "Older Student"
+              If age between 18–25 : print "University Student"     
+              If age < 18 : print "School Student"
+
+              Use switch expression / relational pattern / when keyword             */
             #endregion
 
             #region 1-	Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no.
-
+            //
             #endregion
 
             #region 2-	Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen 
